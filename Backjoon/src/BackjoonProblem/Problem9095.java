@@ -15,7 +15,8 @@ public class Problem9095 {
 		//3,4,7,10
 		
 		Scanner sc =  new Scanner(System.in);
-		int [] nums = new int[4];
+		int n = sc.nextInt();
+		int [] nums = new int[n];
 		
 		for(int i = 0; i<nums.length; i++) {
 			nums[i] = sc.nextInt();
