@@ -12,7 +12,7 @@ public class Problem9095 {
 	public static void main(String[] args) {
 		
 		//각 테스트 케이스마다, n을 1, 2, 3의 합으로 나타내는 방법의 수를 출력한다.
-		//3,4,7,10
+		//4,7,10
 		
 		Scanner sc =  new Scanner(System.in);
 		int n = sc.nextInt();
