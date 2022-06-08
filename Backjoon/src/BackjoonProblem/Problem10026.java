@@ -4,6 +4,7 @@ import java.io.*;
 import java.io.InputStream;
 
 public class Problem10026 {
+	
 	//DFS
 
 	static char [][] map;
