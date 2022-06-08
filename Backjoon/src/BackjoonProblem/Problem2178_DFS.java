@@ -2,7 +2,7 @@ package BackjoonProblem;
 
 import java.io.*;
 
-public class Problem2178 {
+public class Problem2178_DFS {
 	static int N;
 	static int M;
 	static int [][] map;
@@ -50,7 +50,5 @@ public class Problem2178 {
 			}
 			
 		}
-		
-	
-}
+	}
 }
