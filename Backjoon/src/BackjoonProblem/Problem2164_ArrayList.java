@@ -3,7 +3,7 @@ package BackjoonProblem;
 import java.io.*;
 import java.util.ArrayList;
 
-public class Problem2164 {
+public class Problem2164_ArrayList {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
