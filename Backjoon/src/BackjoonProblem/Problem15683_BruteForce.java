@@ -70,7 +70,7 @@ public class Problem15683_BruteForce {
 			
 		}
 		else if(room[check.get(idx)[0]][check.get(idx)[1]].equals("2")) {
-			
+			//어렵당..
 		}
 		else if(room[check.get(idx)[0]][check.get(idx)[1]].equals("3")) {
 			
