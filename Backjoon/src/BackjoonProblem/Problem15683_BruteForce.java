@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Problem15683_BruteForce {
 	
 	//아직 못품.. 어렵다 ㅠ
+	//임시 문제 연습
 	
 	static String xy[];
 	static String [][] room;
