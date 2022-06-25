@@ -34,7 +34,7 @@ public class Problem1477 {
 		
 		while(j < addRestNum) {
 			// 500/2 = 250 이지만 250자리에 휴게소가 생기는 것이기 때문에 거리는 250-1 -> 249가 됨
-			//여기가 어렵다.. -> 9-2=7 %3 = 2..1!!!! 방금 적으면서 깨달음 ㅋㄱㅋ
+			//여기가 어렵다.. -> 9-2=7 %3 = 2..1!!!! 방금 적으면서 깨달음 ㅋㄱㅋ <-- 근데 이것도 아니었음 ㅜㅜ
 			if((RestDistance.get(RestDistance.size()-1)-(i-1))%i == 0) {
 				if((RestDistance.get(RestDistance.size()-1)-(i-1))/i  > RestDistance.get(RestDistance.size()-2) && i < addRestNum) {
 					i++;
