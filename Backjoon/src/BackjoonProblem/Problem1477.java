@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.Scanner;
 public class Problem1477 {
 	//유사하게 나오지만 완벽한 정답이 나오지 않음.. 거리를 나누는 과정에서 +-1 하는 부분의 검증이 어려움.. 이분탐색 알고리즘 공부하자
+	//이분탐색 -> 탐색 부분을 두 부분으로 나눠서 필요한 지역만 탐색하는 방법
 	public static void main(String[] args) throws IOException {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		Scanner sc = new Scanner(System.in);
@@ -72,7 +73,7 @@ public class Problem1477 {
 		System.out.println(n/4);
 		System.out.println(n%4);
 		//250, 501/2 = 249 ,250   1 2 3 4 5 6 7 8 9 
-		//						      3		6	  
+		//						      3		6
 	}
 
 }
