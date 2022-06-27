@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Problem1477 {
 	//유사하게 나오지만 완벽한 정답이 나오지 않음.. 거리를 나누는 과정에서 +-1 하는 부분의 검증이 어려움.. 이분탐색 알고리즘 공부하자
 	//이분탐색 -> 탐색 부분을 두 부분으로 나눠서 필요한 지역만 탐색하는 방법
+
 	public static void main(String[] args) throws IOException {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		Scanner sc = new Scanner(System.in);
@@ -35,7 +36,7 @@ public class Problem1477 {
 		
 		while(j < addRestNum) {
 			// 500/2 = 250 이지만 250자리에 휴게소가 생기는 것이기 때문에 거리는 250-1 -> 249가 됨
-			//여기가 어렵다.. -> 9-2=7 %3 = 2..1!!!! 방금 적으면서 깨달음 ㅋㄱㅋ <-- 근데 이것도 아니었음 ㅜㅜ
+			//여기가 어렵다.. -> 9-2=7 %3 = 2..1!!!! 방금 적으면서 깨달음 ㅋㄱㅋ <-- 근데 이것도 아니었음 ㅜㅜ 다시 생각해보자
 			if((RestDistance.get(RestDistance.size()-1)-(i-1))%i == 0) {
 				if((RestDistance.get(RestDistance.size()-1)-(i-1))/i  > RestDistance.get(RestDistance.size()-2) && i < addRestNum) {
 					i++;
