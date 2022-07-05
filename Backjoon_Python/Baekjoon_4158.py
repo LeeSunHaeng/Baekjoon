@@ -1,11 +1,16 @@
 import sys
 input = sys.stdin.readline
 
-N,M = map(int,input().split)
+
 
 s = set()
 
 while (True) :
+
+    N,M = map(int,input().split())
+    if N == M == 0:
+        break
+
     for i in range(N) :
         cd = int(input())
         s.add(cd)
@@ -16,4 +21,5 @@ while (True) :
         if cd in s :
             answer += 1
 
-    print(answer)
+
+print(answer)
