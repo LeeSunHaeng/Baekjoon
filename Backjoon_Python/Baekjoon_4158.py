@@ -2,12 +2,11 @@ import sys
 input = sys.stdin.readline
 
 
-
-s = set()
-
+#성공
 while (True) :
 
     N,M = map(int,input().split())
+    s = set()
     if N == M == 0:
         break
 
@@ -20,6 +19,5 @@ while (True) :
         cd = int(input())
         if cd in s :
             answer += 1
+    print(answer)
 
-
-print(answer)
